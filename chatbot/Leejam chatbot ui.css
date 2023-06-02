@@ -1,0 +1,94 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-book');
+header{
+    /* background-image: linear-gradient(to bottom, #ff671f,#fff); */
+    background-image: linear-gradient(to bottom, #DD052B,#8A0551);
+    /* background-color: #ff671f; */
+}
+#msgarea{
+    background-image: linear-gradient(to bottom,#8A0551, #DD052B);
+    /* background-color: #046a38; */
+    /* display: none; */
+}
+.win_close{
+    background-image: -webkit-linear-gradient(90deg, #dd052b 0, #dd052b 100%);
+}
+#conversationoption{
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end; */
+    
+
+
+    /* padding-left: 175px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: flex; */
+
+
+    display: grid;
+    justify-items: stretch;
+    justify-content: end;
+
+
+}
+/* .choose:hover{
+  
+   
+  border: solid;
+    border-radius: 16px;
+    font-size: large;
+    
+    
+   
+} */
+.choose {
+    border-radius: 0px;
+    /* background-color: #fcfcfc; */
+    /* border: 1px solid #ccc; */
+    padding: 5px 12px;
+    min-width: max-content;
+    text-align: left;
+    margin-left: 10px;
+    color: #C8102E ;
+    cursor: pointer;
+    position: relative;
+    max-width: 100%;
+    display: inline-block!important;
+    line-height: 22px;
+    text-align:end;
+}
+
+
+
+
+
+.msgbx{
+    font-family: 'Gotham Book', sans-serif;
+}
+
+
+.siq-user-message{
+     
+    
+  
+    
+    
+
+}
+
+.botactions{
+    bottom: -270px;
+    
+    left: 270px;
+  
+}
+
+
+.siq-message.siq-user-message{
+    color: #ffffff;
+
+}
+
+/* .siq_content{
+    text-align: right;
+} */
